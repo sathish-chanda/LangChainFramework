@@ -1,0 +1,13 @@
+uv init - to initialize the project
+uv venv - to create a virtual environment
+source .venv/bin/activate - to activate the virtual environment
+uv add -r requirements.txt - to add dependencies from a file
+uv add ipykernel - to add ipykernel to the project
+uv add langchain - to add a dependency
+uv sync - to install dependencies
+uv run [command] - to run a command
+uv pip install - to install a package
+uv pip list - to list installed packages
+uv pip freeze - to list installed packages in requirements format
+uv pip uninstall - to uninstall a package   
+uv pip uninstall langchain - to uninstall langchain
